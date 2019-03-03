@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shapingdata</title>
+    <link rel="stylesheet" href="/static/main.css">
+  </head>
+  <body background='/static/p_da0580_ll_da05800.jpg'>
+    <h3>データ整形</h3>
+    <form action="/json" method="post">
+      <textarea name="input" rows="10" cols="100">{{indata}}</textarea>
+      <br>
+      <input type="submit" value="json整形">
+    </form>
+    <br>
+    <textarea name="output" rows="10" cols="100">{{outdata}}</textarea><br>
+  </body>
+</html>
